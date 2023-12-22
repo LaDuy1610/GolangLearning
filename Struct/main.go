@@ -23,8 +23,7 @@ func main() {
 		},
 	}
 
-	yuriPointer := &yuri
-	yuriPointer.updateName("Duy")
+	yuri.updateName("Duy")
 	yuri.print()
 }
 
